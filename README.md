@@ -4,6 +4,9 @@
 
 ---
 
+### 🔧 Kubernetes Policy (AgentGateway)
+
+```yaml
 apiVersion: agentgateway.dev/v1alpha1
 kind: AgentgatewayPolicy
 metadata:
