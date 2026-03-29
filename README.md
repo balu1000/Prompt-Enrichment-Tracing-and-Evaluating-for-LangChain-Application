@@ -40,7 +40,6 @@ curl http://127.0.0.1:8080/v1/chat/completions \
   }'
 
 ![Prompt](screenshots/prompt.png)
-
 *Результат роботи Prompt Enrichment через agentgateway*
 
 Prompt Enrichment було реалізовано через AgentgatewayPolicy, прив’язану до HTTPRoute.
