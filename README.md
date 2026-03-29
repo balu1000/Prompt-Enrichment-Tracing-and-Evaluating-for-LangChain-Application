@@ -34,7 +34,7 @@ curl http://127.0.0.1:8080/v1/chat/completions \
     ]
   }'
 
-![Prompt](Prompt.png)
+![Prompt](screenshots/Prompt.png)
 
 *Результат роботи Prompt Enrichment через agentgateway*
 
