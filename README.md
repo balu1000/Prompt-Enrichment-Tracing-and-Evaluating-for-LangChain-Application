@@ -4,7 +4,7 @@
 
 ---
 
-### 🔧 Kubernetes Policy (AgentGateway)
+### Kubernetes Policy (AgentGateway)
 
 ```yaml
 apiVersion: agentgateway.dev/v1alpha1
@@ -23,6 +23,8 @@ spec:
         prepend:
           - role: system
             content: "Convert response to CSV format."
+
+```
 
 ### Перевірка
 
