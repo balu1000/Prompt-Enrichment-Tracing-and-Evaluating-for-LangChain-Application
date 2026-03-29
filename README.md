@@ -49,3 +49,15 @@ Prompt Enrichment було реалізовано через AgentgatewayPolicy,
 system prompt додається автоматично
 поведінка моделі змінюється без змін у клієнтському коді
 відповідь стає структурованою
+
+## Tracing and Evaluating (LangChain + Phoenix)
+
+Для цієї частини використовувався Phoenix, який вже розгорнутий у кластері `abox`.
+
+---
+
+![LangChain](screenshots/LangChain.png)
+
+LangChain application успішно виконує запит до моделі
+Phoenix tracing підключений через HTTP endpoint
+Trace відображається у Phoenix UI
